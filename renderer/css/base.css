@@ -1,0 +1,39 @@
+html, body {
+  margin:                     0;
+  padding:                    0;
+  overflow:                   hidden;
+  background-color:           #e6e6e6;
+  width: 100%;
+  height: 100%;
+}
+
+.url-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.url-bar, .navigation, .address-bar {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.navigation i {
+  font-size: 15pt;
+  margin-left: 10px;
+}
+
+.navigation i .disabled {
+  color: grey;
+}
+
+.address-bar input {
+  border-radius: 5px;
+  height: 20px;
+  width: 80%;
+}
+
+webview {
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ipfs-browser-poc",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "file-type": "^4.2.0",
+    "ipfs": "^0.23.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "rollup": "*"
+  }
+}
